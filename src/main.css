@@ -1,0 +1,19 @@
+.contenido{
+    display: flex;
+    background-color:rgba(0, 214, 201, .15);
+    width: 100%;
+    flex-wrap: wrap;
+    height: 20vh;
+    justify-content: space-around;
+}
+.informacion h1{
+    font-size: 35px;
+}
+.informacion p{
+    font-size: 20px;
+}
+.Logo{
+    padding-top: 1vh;
+    width: 192px;
+    height: 192px;
+}

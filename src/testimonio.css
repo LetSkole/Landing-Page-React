@@ -1,0 +1,20 @@
+.contenido-te{
+    background-color: #e7e5ff;
+    height: 30vh;
+    width: 100%;
+}
+
+.contenido-te-list{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+
+
+.contenido-te h1{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 35px;
+    margin: 0;
+}

@@ -1,0 +1,13 @@
+.contenido-mi{
+    width: 150px;
+}
+.contenido-mi img{
+    border-radius: 30%;
+    width: 100px;
+    height: 100px; 
+    margin-left: 25px;
+}
+
+.contenido-mi p{
+    text-align: center;
+}
