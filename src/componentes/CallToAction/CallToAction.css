@@ -1,0 +1,31 @@
+.contenido-ti{
+    width: 100%
+}
+
+#contactanos {
+    text-align: center;
+}
+
+.input-text {
+    text-align: center;
+    padding: 10px;
+}
+.comment-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.label-call {
+    margin-right: 5px;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Enviar, #Cancelar {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

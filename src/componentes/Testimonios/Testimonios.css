@@ -1,13 +1,13 @@
 .contenido-te{
     background-color: #e7e5ff;
-    height: 50vh;
     width: 100%;
 }
 
 .contenido-te-list{
-    display: flex;
+    /* display: flex; */
     margin-top: 20px;
     justify-content: space-around;
+    width: 100%;
 }
 
 

@@ -6,13 +6,14 @@ import lara from "../../assets/lara_lozano.jpg";
 import carlos from "../../assets/carlos_valladares.jpeg";
 import "./Testimonios.css";
 
-export function Testimonios() {
+function Testimonios() {
   return (
     <div className="contenido-te">
       <h1>
         <strong>Testimonios</strong>
       </h1>
-      <div className="contenido-te-list">
+      <div className="row contenido-te-list">
+        <div className="col-6 col-md-2">
         <Miembrocard
           image={sonia}
           nombre="Sonia Paredes"
@@ -23,16 +24,20 @@ export function Testimonios() {
                     motivada para
                     estudiar"
         />
+        </div>
+        <div className="col-6 col-md-2">
         <Miembrocard
           image={hector}
           nombre="Hector Salazar"
           tipo="Padre"
           descripcion="Mi hijo esta más
-                    motivado para repasar
-                    los temas del colegio y
-                    sus notas han
-                    mejorado por ello"
-        />
+          motivado para repasar
+          los temas del colegio y
+          sus notas han
+          mejorado por ello"
+          />
+        </div>
+        <div className="col-6 col-md-2">
         <Miembrocard
           image={raul}
           nombre="Raul Rodriguez"
@@ -42,6 +47,8 @@ export function Testimonios() {
                     juegos y aprobé mi
                     examen"
         />
+        </div>
+        <div className="col-6 col-md-2">
         <Miembrocard
           image={lara}
           nombre="Lara Lozano"
@@ -52,6 +59,8 @@ export function Testimonios() {
                     porque me motivan a
                     estudiar"
         />
+        </div>
+        <div className="col-6 col-md-2">
         <Miembrocard
           image={carlos}
           nombre="Carlos Valladarez"
@@ -61,7 +70,12 @@ export function Testimonios() {
                     colegio, utilizo los
                     juegos para repasar"
         />
+        </div>
+        <div className="col-md-2 col-6">
+        </div>
       </div>
     </div>
   );
 }
+
+export default Testimonios;

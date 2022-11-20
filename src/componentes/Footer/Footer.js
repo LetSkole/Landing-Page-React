@@ -11,7 +11,7 @@ function Footer() {
   return (
     <div className="row back-blue">
       <h2 className="subtitle">Redes Sociales</h2>
-      <p className="col-md-2 brand text-center">Letskole</p>
+      <p className="col-12 col-md-2 brand text-center">Letskole</p>
       <p className="col-md-5 text-center">
           ¡No olvides seguirnos en nuestras redes sociales! <br/>
           Mira nuestras publicaciones, actualizaciones o 

@@ -1,11 +1,11 @@
 import dscompany from "../../assets/DScompany.jpeg";
 import "./Nosotros.css";
 
-export function Nosotros() {
+function Nosotros() {
   return (
-    <div className="contenido-ns">
-      <img src={dscompany} className="Logo-ns" alt="DsCompany-img" width={192} height={192}></img>
-      <div className="nosotros">
+    <div className="row contenido-ns">
+      <img src={dscompany} className="Logo-ns col-4 col-md-2" alt="DsCompany-img" width={192} height={192}></img>
+      <div className="nosotros col-8 col-md-10">
         <h1>
           <strong>Sobre Nosotros...</strong>
         </h1>
@@ -35,3 +35,5 @@ export function Nosotros() {
     </div>
   );
 }
+
+export default Nosotros;

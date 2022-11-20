@@ -1,6 +1,7 @@
 import "./Nav.css"
+import hamburguer from "../../assets/hamburguer.jpg"
 
-export function Navbar() {
+function Navbar() {
   return (
     <nav className="nav">
       <ul className="nav-list">
@@ -23,6 +24,9 @@ export function Navbar() {
           <a href="#">Redes Sociales</a>
         </li>
       </ul>
+      <img id="hamburguer" src={hamburguer} />
     </nav>
   );
 }
+
+export default Navbar;

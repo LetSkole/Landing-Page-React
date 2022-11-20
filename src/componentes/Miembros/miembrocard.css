@@ -1,11 +1,13 @@
 .contenido-mi{
-    width: 150px;
+    /* width: 150px; */
 }
 .contenido-mi img{
+    display: block;
     border-radius: 30%;
-    width: 100px;
-    height: 100px; 
-    margin-left: 25px;
+    width: 80px;
+    height: 80px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contenido-mi p{
