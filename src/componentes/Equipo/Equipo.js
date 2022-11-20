@@ -1,9 +1,9 @@
-import {Miembrocard} from "./Miembro_card";
-import elvis from "./assets/elvis.jpg";
-import natalia from "./assets/natalia.png";
-import sergio from "./assets/sergio.png";
-import jack from "./assets/jack.jpg";
-import "./equipo.css";
+import {Miembrocard} from "../Miembros/Miembro_card";
+import elvis from "../../assets/elvis.jpg";
+import natalia from "../../assets/natalia.png";
+import sergio from "../../assets/sergio.png";
+import jack from "../../assets/jack.jpg";
+import "./Equipo.css";
 
 export function Equipo(){
     return (

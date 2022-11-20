@@ -1,5 +1,6 @@
-import dscompany from "./assets/DScompany.jpeg";
-import "./nosotros.css";
+import dscompany from "../../assets/DScompany.jpeg";
+import "./Nosotros.css";
+
 export function Nosotros() {
   return (
     <div className="contenido-ns">

@@ -1,8 +1,11 @@
 /* Images */
-import facebook from "../img/facebook.png";
-import instagram from "../img/instagram.png";
-import twitter from "../img/twitter.png";
-import youtube from "../img/youtube.png";
+import facebook from "../../assets/facebook.png";
+import instagram from "../../assets/instagram.png";
+import twitter from "../../assets/twitter.png";
+import youtube from "../../assets/youtube.png";
+
+import "../grid.css";
+import "./Footer.css";
 
 function Footer() {
   return (

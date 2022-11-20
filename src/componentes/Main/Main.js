@@ -1,5 +1,6 @@
-import logo from "./assets/LOGO-LETSKOLE.png";
-import "./main.css";
+import logo from "../../assets/LOGO-LETSKOLE.png";
+import "./Main.css";
+
 export function Main() {
   return (
     <div className="contenido">

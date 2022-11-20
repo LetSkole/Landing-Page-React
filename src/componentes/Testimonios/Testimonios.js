@@ -1,10 +1,10 @@
-import { Miembrocard } from "./Miembro_card";
-import sonia from "./assets/sonia_paredes.png";
-import hector from "./assets/hector_salazar.webp";
-import raul from "./assets/raul_rodriguez.jpg";
-import lara from "./assets/lara_lozano.jpg";
-import carlos from "./assets/carlos_valladares.jpeg";
-import "./testimonio.css";
+import { Miembrocard } from "../Miembros/Miembro_card";
+import sonia from "../../assets/sonia_paredes.png";
+import hector from "../../assets/hector_salazar.webp";
+import raul from "../../assets/raul_rodriguez.jpg";
+import lara from "../../assets/lara_lozano.jpg";
+import carlos from "../../assets/carlos_valladares.jpeg";
+import "./Testimonios.css";
 
 export function Testimonios() {
   return (
